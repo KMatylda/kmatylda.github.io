@@ -1,15 +1,45 @@
+:root {
+    --font_color: #000000;
+    --background_color: #c1f121;
+    --znacznik_color: #00aa00;
+}
+
 body {
-    color:rgb(13, 14, 14);
+    color: var(--font_color);
     background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     
 }
-#defincja {
-    width: 300;
-    background-color: rgb(255, 0, 255);
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--background_color);
 }
-ul {
-	list-style-type:none;
-    margin: 0;
-    padding: 0;
+
+.logo {
+    float: left;
+    color: var(--font_color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a { 
+    float: right;
+    color: var(--font_color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: var(--font_color);
+    color: var(--background_color);
+}
+
+.topnav a.active {
+    background-color: var(--znacznik_color);
+    color: white;
 }
