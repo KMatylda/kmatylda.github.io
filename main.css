@@ -43,3 +43,59 @@ body {
     background-color: var(--znacznik_color);
     color: white;
 }
+
+.kontakt a { 
+    float: right;
+    color: var(--font_color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.kontakt a:hover {
+    background-color: var(--font_color);
+    color: var(--background_color);
+}
+
+
+.tytulowe-foto {
+    width: 80vw;
+    height: 40vh;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.moje-zdjecie {
+    width: 15vw;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vh;
+    padding: 1vh;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .item-szeroki {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item-o-mnie {
+    width: 30vw
+
+  }
+
