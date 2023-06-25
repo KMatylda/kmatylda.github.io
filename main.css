@@ -1,7 +1,7 @@
 :root {
     --font_color: #000000;
-    --background_color: #c1f121;
-    --znacznik_color: #00aa00;
+    --background_color: #ba98b6;
+    --znacznik_color: #2f3f32;
 }
 
 body {
@@ -23,6 +23,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: bold;
 }
 
 .topnav a { 
@@ -60,7 +61,7 @@ body {
 
 
 .tytulowe-foto {
-    width: 80vw;
+    width: 97.7vw;
     height: 40vh;
     object-fit: cover;
     display: block;
@@ -69,8 +70,8 @@ body {
 }
 
 .moje-zdjecie {
-    width: 15vw;
-    height: auto;
+    width: 40vw;
+    height: 60vh;
     object-fit: cover;
     display: block;
     margin-left: auto;
@@ -99,3 +100,33 @@ body {
 
   }
 
+  form {
+    border: 3px solid var(--background_color);
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  input[type=text], input[type=submit], input[type=email] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] { 
+    background-color: var(--background_color);
+    color: var(--znacznik_color);
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
